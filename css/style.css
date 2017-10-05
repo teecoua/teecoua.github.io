@@ -14,16 +14,16 @@ body,
 }
 
 .navbar {
-    background-color: rgba(256, 256, 256, 0.7);
+    background-color: rgba(256, 256, 256, 0.8);
 }
 
 .top-nav-collapse {
-    background-color: rgba(256, 256, 256, 0.8);
+    background-color: rgba(256, 256, 256, 0.85);
 }
 
 @media only screen and (min-width: 767px) {
     .navbar {
-        background-color: rgba(256, 256, 256, 0.8);
+        background-color: rgba(256, 256, 256, 0.85);
     }
     
     .bigheader {
