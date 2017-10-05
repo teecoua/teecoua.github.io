@@ -19,7 +19,7 @@
         <nav class="navbar navbar-expand-md navbar-light scrolling-navbar fixed-top wow fadeIn" data-wow-delay="0.5s">
             <div class="container">
                 <a class="navbar-brand waves-effect mr-5">
-                    <img src="img/teelogo4.png" height="30" class="d-inline-block align-top" alt="TEE Logo">
+                    <img src="img/teelogo4.png" height="32" class="d-inline-block align-top" alt="TEE Logo">
                 </a>
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -241,8 +241,8 @@
                                 <input placeholder="+38 (0__) __ __ ___" type="text" class="form-control input1">
                             </div>
                             
-                            <a class="btn redbutton waves-effect waves-light m-0">
-                                <span class="redtext">подзвоніть мені</span>
+                            <a class="btn redbutton waves-effect waves-light m-0"  data-toggle="modal" data-target="#centralModalSuccess">
+                                <span class="black-text">подзвоніть мені</span>
                             </a>
                         </div>
                     </div>
@@ -282,8 +282,24 @@
                     </div>
                 </div>
             </div>
-            
         </footer>
+        
+        <!-- Modal --> 
+        
+        <div class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-notify" role="document">
+                <div class="modal-content">
+                    <h2 class="text-center mt-4">Заявка подана успішно</h2>
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <i class="fa fa-check fa-4x mb-3 animated rotateIn"></i>
+                            <p>Незабаром з вами зв'яжеться наш менеджер</p>
+                        </div>
+                        <a  class="btn redbutton waves-effect m-0" data-dismiss="modal"><span class="black-text">зрозуміло</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
         
         <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="js/popper.min.js"></script>

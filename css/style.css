@@ -57,6 +57,7 @@ body,
 .fa-copyright,
 .fa-map-marker,
 .fa-envelope,
+.fa-check,
 .redtext {
     color: #ff3d00 !important;
 }
@@ -122,8 +123,4 @@ body,
     font-family: 'Roboto light';
     box-shadow: none;
     background-color: rgba(255, 255, 255, 0.5);
-}
-
-h2, h3, h4, h5, p {
-    
 }
