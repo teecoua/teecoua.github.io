@@ -103,14 +103,10 @@ textarea.md-textarea {
     border-radius: 0;
     margin-top: 0.2rem;
     margin-bottom: 1rem;
-    &:focus {
-        background: transparent;
-        border-color: #ff3d00;
-    }
+ 
     &:disabled,
     &[readonly] {
-        background-color: transparent;
-        border-bottom: 1px solid #bdbdbd;
+        border: 1px solid #bdbdbd;
     }
 }
 // Input + label wrapper styles

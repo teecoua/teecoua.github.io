@@ -92,13 +92,17 @@ body,
 }
 
 .input1::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease; text-align: center;}
-.input1::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+.input1::-moz-placeholder {
+    opacity: 1; 
+    transition: opacity 0.3s ease;
+}
 .input1:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
 .input1:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
-.input1:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
-.input1:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
-.input1:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
-.input1:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+.input1:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease; text-align: center;}
+.input1:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease; text-align: center;}
+.input1:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease; text-align: center;}
+.input1:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease; text-align: center;}
+
 .descript {
     font-size: 120%;
 }
@@ -135,4 +139,12 @@ body,
 
 ::-webkit-scrollbar-thumb:window-inactive {
    background: #ff3d00;
+}
+.input1 {
+    border: 1px solid #000000 !important;
+    text-align: center;
+}
+
+.input1:focus {
+   border-bottom: 1px solid #000 !important;
 }
