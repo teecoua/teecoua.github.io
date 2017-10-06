@@ -13,6 +13,10 @@ body,
     font-family: 'Didact Gothic', sans-serif;
 }
 
+.view-top {
+    background-color: #ff3d00;
+}
+
 .navbar {
     background-color: rgba(256, 256, 256, 0.8);
 }
