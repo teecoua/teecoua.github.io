@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic&subset=cyrillic');
 
+
 .nav-list {
     text-align: center;
 }
@@ -71,7 +72,7 @@ body,
 }
 
 .bigheader {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Amatic SC', cursive;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
