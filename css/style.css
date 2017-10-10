@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic&subset=cyrillic');
 @import url('https://fonts.googleapis.com/css?family=Monoton');
-
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans');
 
 .nav-list {
     text-align: center;
@@ -16,7 +16,7 @@ body,
 }
 
 .view-top {
-    /*background-color: #ff3d00;*/
+    /*background-image: url(fabric_1.png);*/
 }
 
 .navbar {
@@ -39,7 +39,7 @@ body,
 
 @media only screen and (max-width: 767px) {
     .bigheader {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
     
     p, h2{
@@ -74,7 +74,7 @@ body,
 
 .bigheader {
     font-family: 'Monoton', cursive;
-    word-spacing: 1rem; 
+    /*word-spacing: 1rem; */
     color: #ff3d00;
     text-transform: uppercase;
 }
@@ -92,7 +92,7 @@ body,
     width: 100%;
     border: #ff3d00 solid 1px;
     border-radius: 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Roboto light', sans-serif;
     box-shadow: none;
 }
@@ -154,4 +154,11 @@ body,
 
 .input1:focus {
    border-bottom: 1px solid #000 !important;
+}
+
+.redline {
+    height: 1px;
+    background-color: #ff3d00;
+    width: 100%;
+    margin-bottom: 0.5rem;
 }
