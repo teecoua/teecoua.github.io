@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
 
 
 .nav-list {
@@ -72,9 +73,9 @@ body,
 }
 
 .bigheader {
-    font-family: 'Amatic SC', cursive;
-    font-weight: 700;
-    color: #fff;
+    font-family: 'Monoton', cursive;
+    word-spacing: 1rem; 
+    color: #ff3d00;
     text-transform: uppercase;
 }
 
@@ -91,7 +92,7 @@ body,
     width: 100%;
     border: #ff3d00 solid 1px;
     border-radius: 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Roboto light', sans-serif;
     box-shadow: none;
 }
