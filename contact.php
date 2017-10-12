@@ -3,7 +3,7 @@
 if(!empty($_POST))
 {
     $message = 'no telephone';
-    if(isset($_POST['tel']))
+    if(isset($_POST['tel']) &&  $_POST['tel'] != null)
        $message = $_POST['tel'];
     $responseArray = array('type' => 'success', 'message' => $message);
 }
