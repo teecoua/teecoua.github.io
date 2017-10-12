@@ -37,7 +37,7 @@ if(!empty($_POST))
         
         $conn->close();
     }
-    $responseArray = array('type' => $type, 'message' => 'post empty');
+    $responseArray = array('type' => $type, 'message' => var_dump($_POST));
 }
 else
 {
