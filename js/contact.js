@@ -19,15 +19,14 @@ $(function () {
             $.ajax({
                 type: "POST",
                 url: url,
-                data: "tel=" + tel,
+                data: "&tel=" + tel,
                 success: function (data)
                 {
-                    console.log('success');
                     console.log(data.type);
                     console.log(data.message);
                 },
                 error: function(data){
-                    console.log('error');
+                    console.log(data);
                 }
             });
             return false;
