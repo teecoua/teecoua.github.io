@@ -1,8 +1,9 @@
 <?php
 
-if(!empty($_POST)){
+if(!empty($_POST))
+{
     $message = 'no telephone';
-    if(isset($_POST['tel'])
+    if(isset($_POST['tel']))
        $message = $_POST['tel'];
     $responseArray = array('type' => 'success', 'message' => $message);
 }
