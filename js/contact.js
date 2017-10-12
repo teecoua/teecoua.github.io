@@ -24,7 +24,7 @@ $(function () {
                 {
                     console.log(data.type);
                     console.log(data.message);
-                    $('#centralModalSuccess').modal('show');
+                    //$('#centralModalSuccess').modal('show');
                 },
                 error: function(data){
                     console.log(data);
