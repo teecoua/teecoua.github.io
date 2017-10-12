@@ -8,13 +8,14 @@ if(!empty($_POST))
     
     if(isset($_POST['tel']) && $_POST['tel'] != null) {
         
-        
+        $tel = $_POST['tel'];
         $servername = "localhost";
         $username = "vova";
         $password = "cfkmnj30";
-
+        $dbname = "tee";
+        
         // Create connection
-        $conn = new mysqli($servername, $username, $password);
+        $conn = new mysqli($servername, $username, $password, $dbname);
 
         // Check connection
         if ($conn->connect_error) {
@@ -23,9 +24,18 @@ if(!empty($_POST))
         } 
         else
         {
-            $message = 'Connected';
-            $type = 'success';   
+            $sql = 'INSERT INTO consultate (telephone) VALUES ('.$tel.')';
+            
+            if ($conn->query($sql) === TRUE) {
+                $message = "New record created successfully";
+                $type = 'success'; 
+            } else {
+                $message = "Error: " . $sql . "<br>" . $conn->error;
+                $type = 'error'; 
+            } 
         }
+        
+        $conn->close();
     }
     $responseArray = array('type' => $type, 'message' => $message);
 }
