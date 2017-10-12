@@ -17,8 +17,9 @@ body,
 
 .view-top {
     background-image: url(main%20animation_animated.1507713370.svg);
-    background-position: bottom;
+    background-position: bottom; 
     background-repeat: no-repeat;
+    background-size: 90%;
 }
 
 .navbar {
@@ -46,6 +47,11 @@ body,
     
     p, h2{
         text-align: center !important;
+    }
+    
+    
+    .view-top {
+        background-image: none;
     }
 }
 
@@ -76,7 +82,7 @@ body,
 
 .bigheader {
     font-family: 'Monoton', cursive;
-    /*word-spacing: 1rem; */
+    word-spacing: 1rem; 
     color: #ff3d00;
     text-transform: uppercase;
 }
