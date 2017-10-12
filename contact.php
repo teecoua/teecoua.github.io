@@ -3,8 +3,8 @@
 $message = 'no telephone';
 $type = 'warning';
 
-//if(!empty($_POST))
-//{
+if(!empty($_POST))
+{
     
     if(isset($_POST['tel']) && $_POST['tel'] != null) {
         
@@ -38,11 +38,11 @@ $type = 'warning';
         $conn->close();
     }
     $responseArray = array('type' => $type, 'message' => 'post empty');
-/*}
+}
 else
 {
     $responseArray = array('type' => $type, 'message' => $message);
-}*/
+}
 
 if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
     $encoded = json_encode($responseArray);

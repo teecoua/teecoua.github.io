@@ -19,7 +19,7 @@ $(function () {
             $.ajax({
                 type: "POST",
                 url: url,
-                data: tel,
+                data: "tel=" + tel,
                 success: function (data)
                 {
                     console.log(data.type);
