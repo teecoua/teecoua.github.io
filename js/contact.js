@@ -14,7 +14,7 @@ $(function () {
         //if (!e.isDefaultPrevented()) {
             var url = "contact.php";
             var tel = $("#telephone").val();
-        console.log(tel);
+            console.log(tel);
             // POST values in the background the the script URL
             $.ajax({
                 type: "POST",
