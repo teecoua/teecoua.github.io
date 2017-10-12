@@ -76,6 +76,7 @@ body,
 .fa-map-marker,
 .fa-envelope,
 .fa-check,
+.fa-file-text,
 .redtext {
     color: #ff3d00 !important;
 }
@@ -165,7 +166,7 @@ body,
 }
 
 .redline {
-    height: 1px;
+    height: 2px;
     background-color: #ff3d00;
     width: 100%;
     margin-bottom: 0.5rem;
