@@ -16,11 +16,9 @@ body,
 }
 
 .view-top {
-    /*background-image: url(fabric_1.png);*/
     background-image: url(main%20animation_animated.1507713370.svg);
     background-position: bottom;
     background-repeat: no-repeat;
-    transition-delay: 3s;
 }
 
 .navbar {
