@@ -2,6 +2,7 @@
 
 if(count($_POST) != 0){
     $message = 'no telephone';
+    $message = var_dump($_POST);
     /*if(isset($_POST['tel'])
        $message = $_POST['tel'];*/
     $responseArray = array('type' => 'success', 'message' => $message);
