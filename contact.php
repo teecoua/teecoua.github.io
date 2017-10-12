@@ -39,7 +39,7 @@ if(!empty($_POST))
     }
     else
     {
-        $responseArray = array('type' => 'not null', 'message' => 'wrong telephone');
+        $responseArray = array('type' => $type, 'message' => 'wrong telephone');
     }
 }
 else

@@ -22,8 +22,8 @@ $(function () {
                 data: "tel=" + tel,
                 success: function (data)
                 {
-                    console.log(data.type);
                     console.log(data.message);
+                    console.log(data.type);
                     //$('#centralModalSuccess').modal('show');
                 },
                 error: function(data){
