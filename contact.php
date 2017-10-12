@@ -37,7 +37,10 @@ if(!empty($_POST))
         
         $conn->close();
     }
-    $responseArray = array('type' => $type, 'message' => print_r($_POST));
+    else
+    {
+        $responseArray = array('type' => $type, 'message' => 'wrong telephone');
+    }
 }
 else
 {
