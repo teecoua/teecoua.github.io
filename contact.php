@@ -1,6 +1,6 @@
 <?php
 
-if(count($_POST) != 0){
+if(!empty($_POST)){
     $message = 'no telephone';
     $message = var_dump($_POST);
     /*if(isset($_POST['tel'])
