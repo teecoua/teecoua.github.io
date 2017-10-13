@@ -14,7 +14,11 @@ $(function () {
         //if (!e.isDefaultPrevented()) {
             var url = "contact.php";
             var tel = $("#telephone").val();
-            console.log(tel);
+            if(tel.length < 17) {
+                $("#telephone").attr('class', 'invalid');
+                return;
+            }
+            console.log(tel.length);
             // POST values in the background the the script URL
             $.ajax({
                 type: "POST",
