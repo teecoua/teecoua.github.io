@@ -1,6 +1,6 @@
 <?php
 
-require 'db_con.php';
+include 'db_con.php';
 
 $message = 'no telephone';
 $type = 'warning';
