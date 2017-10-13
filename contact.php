@@ -1,13 +1,12 @@
 <?php
 
-include 'db_con.php';
-
 $message = 'no telephone';
 $type = 'warning';
 
+include 'db_con.php';
+
 if(!empty($_POST))
-{
-    
+{ 
     if(isset($_POST['tel']) && $_POST['tel'] != null) {
         
         $tel = $_POST['tel'];
@@ -32,20 +31,11 @@ if(!empty($_POST))
                 $type = 'error'; 
             } 
         }
-        
         $conn->close();
-        $responseArray = array('type' => $type, 'message' => $message);
     }
-    else
-    {
-        $responseArray = array('type' => $type, 'message' => $message);
-    }
-}
-else
-{
-    $responseArray = array('type' => $type, 'message' => $message);
 }
 
+$responseArray = array('type' => $type, 'message' => $message);
 $encoded = json_encode($responseArray);
 
 header('Content-Type: application/json');
