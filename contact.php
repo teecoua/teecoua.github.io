@@ -1,5 +1,7 @@
 <?php
 
+require 'db_con.php';
+
 $message = 'no telephone';
 $type = 'warning';
 
@@ -9,10 +11,6 @@ if(!empty($_POST))
     if(isset($_POST['tel']) && $_POST['tel'] != null) {
         
         $tel = $_POST['tel'];
-        $servername = "localhost";
-        $username = "vova";
-        $password = "cfkmnj30";
-        $dbname = "tee";
         
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
