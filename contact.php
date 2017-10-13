@@ -21,7 +21,7 @@ if(!empty($_POST))
         } 
         else
         {
-            $sql = 'INSERT INTO consultate (telephone) VALUES (\"'.$tel.'\")';
+            $sql = 'INSERT INTO consultate (telephone) VALUES ("'.$tel.'")';
             
             if ($conn->query($sql) === TRUE) {
                 $message = "New record created successfully";
