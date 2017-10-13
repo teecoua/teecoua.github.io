@@ -15,10 +15,13 @@ $(function () {
             var url = "contact.php";
             var tel = $("#telephone").val();
             if(tel.length < 17) {
-                $("#telephone").attr('class', 'invalid');
+                $("#telephone").addClass('invalid');
+                $("#telephone").focus();
+                $(".help-block").addClass('error');
                 return;
             }
-            console.log(tel.length);
+            $(".help-block").attr('class', 'help-block');
+            $("#telephone").removeClass('invalid');
             // POST values in the background the the script URL
             $.ajax({
                 type: "POST",

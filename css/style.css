@@ -218,3 +218,11 @@ body,
 .lable-text {
     font-size: 1.5rem;
 }
+
+.help-block {
+    display: none;
+}
+
+.help-block.error {
+    display: block;
+}
