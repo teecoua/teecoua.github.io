@@ -267,10 +267,11 @@
                         <h2 class="h2-responsive pb-3">Связаться с нами</h2>
 
                         <div class="md-form">
-                            <input placeholder="+38 (0__) __ __ ___" type="text" class="form-control input1" id="telephone">
+                            <input placeholder="+38(___) ___-____" type="text" class="form-control input1" id="telephone">
+                            <div class="help-block">Неправильный номер телефона</div>
                         </div>
 
-                        <a class="btn redbutton waves-effect waves-light m-0 mb-5" data-toggle="modal" data-target="#centralModalSuccess" id="telbtn">
+                        <a class="btn redbutton waves-effect waves-light m-0 mb-5" id="telbtn">
                             <span class="black-text">позвоните мне</span>
                         </a>
                     </div>
@@ -323,11 +324,18 @@
         </div>
         
         <script type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.maskedinput.js"></script>
         <script type="text/javascript" src="/js/popper.min.js"></script>
         <script type="text/javascript" src="/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="/js/mdb.min.js"></script>
         <script type="text/javascript" src="/js/shine.min.js"></script>
         <script type="text/javascript" src="/js/contact.js"></script>
+        
+        <script>
+            jQuery(function($){
+                $("#telephone").mask("+38(999) 999-9999");
+            });
+        </script>
         
         <script>
             //Animation
