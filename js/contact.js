@@ -27,6 +27,7 @@ $(function () {
                 type: "POST",
                 url: url,
                 data: "tel=" + tel,
+                dataType: "json",
                 success: function (data)
                 {
                     console.log(data.message);
