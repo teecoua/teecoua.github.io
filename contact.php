@@ -36,6 +36,7 @@ if(!empty($_POST))
 }
 
 $responseArray = array('type' => $type, 'message' => $message);
+$responseArray = array('type' => 'type', 'message' => 'asasd');
 $encoded = json_encode($responseArray);
 
 header('Content-Type: application/json');
