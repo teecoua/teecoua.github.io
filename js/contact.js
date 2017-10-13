@@ -12,7 +12,7 @@ $(function () {
 
         // if the validator does not prevent form submit
         //if (!e.isDefaultPrevented()) {
-            var url = "contact.php";
+            var url = "/contact.php";
             var tel = $("#telephone").val();
             if(tel.length < 17) {
                 $("#telephone").addClass('invalid');
