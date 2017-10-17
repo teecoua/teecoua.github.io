@@ -231,10 +231,15 @@ body,
 }
 
 th {
-    text-align: center;
+    font-size: 140% !important;
     font-weight: bold !important;
 }
 
 td {
     vertical-align: middle !important;
+    font-size: 105% !important;
+}
+
+.boldtext {
+    font-weight: bold;
 }
