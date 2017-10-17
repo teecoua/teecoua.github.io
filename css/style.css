@@ -55,6 +55,12 @@ body,
     }
 }
 
+@media only screen and (max-width: 721px) {
+    .hidden-sm {
+        display: none;
+    }
+}
+
 @media (max-width: 992px) {
     .description {
         padding-top: 7rem;
