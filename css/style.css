@@ -229,3 +229,12 @@ body,
 .help-block.error {
     display: block;
 }
+
+th {
+    text-align: center;
+    font-weight: bold !important;
+}
+
+td {
+    vertical-align: middle !important;
+}
