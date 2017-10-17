@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+	<loc>https://tee.co.ua/</loc>
+	<lastmod>2017-10-17T15:14:27+01:00</lastmod>
+	<priority>1.0</priority>
+	<xhtml:link 
+                 rel="alternate"
+                 hreflang="ru"
+                 href="https://tee.co.ua/ru/"
+	/>
+<xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://tee.co.ua/en/"
+	/>
+<xhtml:link 
+                 rel="alternate"
+                 hreflang="uk"
+                 href="https://tee.co.ua/"
+	/>
+</url>
+<url>
+	<loc>https://tee.co.ua/about/</loc>
+	<lastmod>2017-10-17T15:14:28+01:00</lastmod>
+	<priority>1.0</priority>
+	<xhtml:link 
+                 rel="alternate"
+                 hreflang="ru"
+                 href="https://tee.co.ua/about/ru/"
+	/>
+<xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://tee.co.ua/about/en/"
+	/>
+<xhtml:link 
+                 rel="alternate"
+                 hreflang="uk"
+                 href="https://tee.co.ua/about/"
+	/>
+</url>
+<url>
+	<loc>https://tee.co.ua/services/</loc>
+	<lastmod>2017-10-17T15:14:30+01:00</lastmod>
+	<priority>1.0</priority>
+	<xhtml:link 
+                 rel="alternate"
+                 hreflang="ru"
+                 href="https://tee.co.ua/services/ru/"
+	/>
+<xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://tee.co.ua/services/en/"
+	/>
+<xhtml:link 
+                 rel="alternate"
+                 hreflang="uk"
+                 href="https://tee.co.ua/services/"
+	/>
+</url>
+<url>
+	<loc>https://tee.co.ua/portfolio/</loc>
+	<lastmod>2017-10-17T15:14:29+01:00</lastmod>
+	<priority>1.0</priority>
+	<xhtml:link 
+                 rel="alternate"
+                 hreflang="ru"
+                 href="https://tee.co.ua/portfolio/ru/"
+	/>
+<xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://tee.co.ua/portfolio/en/"
+	/>
+<xhtml:link 
+                 rel="alternate"
+                 hreflang="uk"
+                 href="https://tee.co.ua/portfolio/"
+	/>
+</url>
+</urlset>
