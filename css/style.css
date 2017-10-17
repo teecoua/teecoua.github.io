@@ -49,15 +49,12 @@ body,
         text-align: center !important;
     }
     
+    .hidden-md {
+        display: none;
+    }
     
     .view-top {
         background-image: none;
-    }
-}
-
-@media only screen and (max-width: 721px) {
-    .hidden-sm {
-        display: none;
     }
 }
 
