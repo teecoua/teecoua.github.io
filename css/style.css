@@ -250,58 +250,120 @@ td {
     font-size: 110%;
 }
 
-#single4 {
-	margin-top: 40px;
-	-webkit-animation-name: single4;
-	animation-name: single4;
+#multiple2 .scroll-arrow-container {
+	height: 20px;
+	width: 20px;
+	position: relative;
+}
+
+#multiple2 span {
+	position: absolute;
+	height: 4px;
+	width: 30px;
+	background-color: #ff3d00;
+}
+
+#multiple2 span.arrow-left {
+	-webkit-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
+	left: -17px;
+}
+
+#multiple2 span.arrow-right {
+	-webkit-transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg);
+	transform: rotate(-30deg);
+	right: -17px;
+}
+
+#multiple2 .arrow1 {
+	-webkit-animation-name: multiple2_1;
+	animation-name: multiple2_1;
 	-webkit-animation-duration: 3s;
 	animation-duration: 3s;
 	-webkit-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
 }
 
-#single4 span {
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 20px 15px 0 15px;
-	border-color: #ff3d00 transparent transparent transparent;
-}
-
-@-webkit-keyframes single4 {
-	0%,
-	20%,
-	50%,
-	80%,
-	100% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
+@-webkit-keyframes multiple2_1 {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 1;
 	}
 	40% {
-		-webkit-transform: translateY(-30px);
-		transform: translateY(-30px);
+		opacity: 0;
 	}
 	60% {
-		-webkit-transform: translateY(-15px);
-		transform: translateY(-15px);
+		opacity: 0;
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
 	}
 }
 
-@keyframes single4 {
-	0%,
-	20%,
-	50%,
-	80%,
-	100% {
-		-webkit-transform: translateY(0);
-		transform: translateY(0);
+#multiple2 .arrow2 {
+	-webkit-animation-name: multiple2_2;
+	animation-name: multiple2_2;
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes multiple2_2 {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
 	}
 	40% {
-		-webkit-transform: translateY(-30px);
-		transform: translateY(-30px);
+		opacity: 1;
 	}
 	60% {
-		-webkit-transform: translateY(-15px);
-		transform: translateY(-15px);
+		opacity: 0;
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
 	}
 }
+
+#multiple2 .arrow3 {
+	-webkit-animation-name: multiple2_3;
+	animation-name: multiple2_3;
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes multiple2_3 {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
