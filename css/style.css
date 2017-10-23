@@ -36,6 +36,7 @@ body,
     }
     
     .bigheader {
+        word-spacing: 1rem; 
         font-size: 4.94rem;
     }
 }
@@ -47,12 +48,14 @@ body,
     
     .bigheader {
         font-size: 3.5rem;
+        word-spacing: 0.8rem; 
     }
 }
 
 @media only screen and (max-width: 767px) {
     .bigheader {
         font-size: 1.9rem;
+        word-spacing: 0.4rem;
     }
     
     p, h2{
@@ -102,7 +105,7 @@ body,
 
 .bigheader {
     font-family: 'Monoton', cursive;
-    word-spacing: 1rem; 
+    
     color: #ff3d00;
     text-transform: uppercase;
 }
