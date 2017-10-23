@@ -30,13 +30,23 @@ body,
     background-color: rgba(256, 256, 256, 0.85);
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 1367px) {
     .navbar {
         background-color: rgba(256, 256, 256, 0.85);
     }
     
     .bigheader {
-        font-size: 5rem;
+        font-size: 4.94rem;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1367px) {
+    .navbar {
+        background-color: rgba(256, 256, 256, 0.85);
+    }
+    
+    .bigheader {
+        font-size: 3.5rem;
     }
 }
 
